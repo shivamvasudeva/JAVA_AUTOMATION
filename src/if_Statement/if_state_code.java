@@ -6,7 +6,7 @@ public class if_state_code {
     public static void main(String[] args) {
 
         // Inirialize known value
-        int sal = 1000;
+        int sal = 10000000000;
         int bonus = 250;
 
 
