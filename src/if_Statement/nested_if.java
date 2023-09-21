@@ -2,7 +2,7 @@ package if_Statement;
 import java.util.Scanner;
 public class nested_if {
     public static void main(String[] args) {
-        int reqsal = 30000;
+        int reqsal = 300000;
         int yr = 2;
 
         // Input1
@@ -29,7 +29,7 @@ public class nested_if {
         }
 
         else {
-            System.out.println("Noooooooo");
+            System.out.println("Nooooooooooooooooooooo");
         }
     }
 

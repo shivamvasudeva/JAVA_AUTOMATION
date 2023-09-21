@@ -6,9 +6,9 @@ public class if_state_code {
     public static void main(String[] args) {
 
         // Inirialize known value
+      
         int sal = 100000;
-        int bonus = 2500;
-
+        int bonus = 250;
 
         // Get value for the unknown
         System.out.println("no. of sale: ");
