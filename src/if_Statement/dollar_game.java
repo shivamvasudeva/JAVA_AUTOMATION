@@ -2,7 +2,7 @@ package if_Statement;
 
 import java.util.Scanner;
 
-public class Logical_Op {
+public class dollar_game {
     public static void main(String[] args) {
         System.out.println("Enter dimes");
         Scanner scanner = new Scanner(System.in);

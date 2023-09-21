@@ -7,7 +7,7 @@ public class if_state_code {
 
         // Inirialize known value
         int sal = 100000;
-        int bonus = 25000000000;
+        int bonus = 2500;
 
 
         // Get value for the unknown
