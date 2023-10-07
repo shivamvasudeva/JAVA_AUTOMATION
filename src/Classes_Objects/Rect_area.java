@@ -9,6 +9,8 @@ public class Rect_area {
         len = 0;
         wid = 0;
     }
+
+    // type 2 constructor
     public Rect_area(double length,  double width) {
         this.len = length;
         setLen(length);

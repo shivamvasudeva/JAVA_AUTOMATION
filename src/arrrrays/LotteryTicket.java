@@ -1,4 +1,5 @@
-package Arrays;
+package arrrrays;
+import java.util.Arrays;
 import java.util.Random;
 
 public class LotteryTicket {
@@ -6,6 +7,7 @@ public class LotteryTicket {
     private static final int MaxTicketNumber = 69;
     public static void main(String[] args) {
         int[] ticket = genrateNumbers();
+        Arrays.sort(ticket);
         printTicket(ticket);
     }
     public static int[] genrateNumbers() {
@@ -48,7 +50,15 @@ public class LotteryTicket {
     }
     public static boolean binarrySearch(int[] array, int NumberToSearchFor) {
         // Array must be sorted first
-        Arrays.
+        Arrays.sort(array);
+
+        //Search == Binarry Search
+        int index = Arrays.binarySearch(array,NumberToSearchFor);
+        if (index >= 0) {
+            return true;
+        }
+        else return false;
+
     }
 
     public static void printTicket(int ticket[]) {
